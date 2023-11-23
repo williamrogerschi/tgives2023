@@ -1,0 +1,196 @@
+/* font families
+font-family: 'Allura', cursive;
+font-family: 'Encode Sans Condensed', sans-serif;
+font-family: 'Gruppo', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Norican', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Space Grotesk', sans-serif;
+font-family: 'Yellowtail', cursive; */
+html {
+  margin: 0;
+  padding: 0;
+}
+.overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255, 0.20);
+}
+body {
+  background-image: url('chark.jpeg');
+  background-position: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: white;
+  font-family: 'Manrope', sans-serif;
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-image: url('chark.jpeg');
+    background-position: cover;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: white;
+    font-family: 'Manrope', sans-serif;
+  }
+}
+@media only screen and (max-width: 800px) {
+  body {
+    background-image: url('chark.jpeg');
+    background-position: cover;
+
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: white;
+    font-family: 'Manrope', sans-serif;
+  }
+}
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+}
+h1{
+  font-family: 'Manrope', sans-serif;
+  /* animation: glow 3s infinite alternate; */
+  margin: 0;
+  color: black;
+  text-decoration: overline;
+}
+
+.body-content {
+  /* background-image: url('paper.jpeg');
+  background-position: fill; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  background-color:rgb(224, 233, 233);
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 700px;
+  border: 2px solid rgb(15, 34, 15);
+}
+@media only screen and (max-width: 400px) {
+  .body-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-color:rgb(224, 233, 233);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 300px;
+    padding: 12px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .body-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-color:rgb(224, 233, 233);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 300px;
+    padding: 12px;
+  }
+}
+.menu-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: rgb(245, 239, 230); */
+  padding: 0 30px 0px 30px;
+  margin-top: -20px;
+}
+.menu-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.h2-container {
+  color: black;
+  padding-top: 40px;
+  text-decoration: overline;
+}
+
+h4{
+  color: black;
+  color: rgb(13, 29, 15);
+  padding: 10px;
+  margin: 0;
+}
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-family: 'Space Grotesk', sans-serif;
+  font-style: italic;
+  margin: 0;
+  padding: 0px 10px 5px 10px;
+  font-size: 14px;
+  max-width: 600px;
+}
+
+@media only screen and (max-width: 400px) {
+  p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-family: 'Space Grotesk', sans-serif;
+  font-style: italic;
+  margin: 0;
+  padding: 0px 10px 5px 10px;
+  font-size: 14px;
+  max-width: auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-family: 'Space Grotesk', sans-serif;
+  font-style: italic;
+  margin: 0;
+  padding: 0px 10px 5px 10px;
+  font-size: 14px;
+  max-width: auto;
+  }
+}
+.footer {
+  text-decoration: none;
+  padding: 60px 40px 40px 40px;
+  color: rgb(18, 38, 20);
+  font-weight: 100;
+}
